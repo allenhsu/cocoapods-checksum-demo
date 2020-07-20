@@ -6,6 +6,6 @@ target 'PodChecksum' do
   use_frameworks!
 
   # Pods for PodChecksum
-  pod 'AFNetworking', '~> 4.0'
+  pod 'AFNetworking', :git => 'git@github.com:AFNetworking/AFNetworking.git', :branch => 'master'
 
 end

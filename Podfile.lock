@@ -16,15 +16,21 @@ PODS:
     - AFNetworking/NSURLSession
 
 DEPENDENCIES:
-  - AFNetworking (~> 4.0)
+  - "AFNetworking (from `git@github.com:AFNetworking/AFNetworking.git`, branch `master`)"
 
-SPEC REPOS:
-  trunk:
-    - AFNetworking
+EXTERNAL SOURCES:
+  AFNetworking:
+    :branch: master
+    :git: "git@github.com:AFNetworking/AFNetworking.git"
+
+CHECKOUT OPTIONS:
+  AFNetworking:
+    :commit: 6dc5ae8efb40dc04c0f180dd7da8d7a7712d78be
+    :git: "git@github.com:AFNetworking/AFNetworking.git"
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
 
-PODFILE CHECKSUM: cac8af1127c5553ae8b49db761297eca7d36347b
+PODFILE CHECKSUM: e6bd241c06d441b532825447ec10b9bad7b999d3
 
 COCOAPODS: 1.9.3
